@@ -65,13 +65,13 @@ body::after {
     content: '';
     position: fixed;
     bottom: 0;
-    right: 0;
-    width: 400px;
-    height: 400px;
+    left: 0;
+    width: 500px;
+    height: 500px;
     background-image: url('assets/watermark.png');
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: bottom right;
+    background-position: bottom left;
     pointer-events: none;
     z-index: 0;
 }
